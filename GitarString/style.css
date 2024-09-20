@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  text-align: start;
+}
+body {
+  overflow-x: hidden;
+  background: #000;
+
+}
+
+.string{
+   margin-top: 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: red; */
+}
