@@ -1,0 +1,64 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   color: white;
+   overflow-x: hidden;
+}
+
+.main{
+   position: relative;
+}
+.nav{
+   /* background-color: pink; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   font-size: 1.5rem;
+}
+.listIcon{
+   cursor: pointer;
+   font-size: 2rem;
+}
+
+.fa-brands{
+   cursor: pointer;
+   font-size: 2rem;
+   margin-right: 10px;
+}
+.sidebar{
+   width: 30vw;
+   height: 100vh;
+   color: white;
+   padding-top: 4rem;
+   padding-left:4rem;
+   font-size: 2rem;
+   line-height: 1.4;
+   background-color: rgba(255, 255, 255, 0.492);
+
+   position: absolute;
+   top: 0;
+   right: -30vw;
+
+}
+.cancle{
+   position: absolute;
+   height: 3rem;
+   width: 3rem;
+   top: 3%;
+   right: 10%;
+   padding: 2px;
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
